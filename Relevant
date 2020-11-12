@@ -114,15 +114,15 @@ KALI@RAT:~/Documents/TRY_HACK_ME/Relevant/smb# ls
 passwords.txt
 KALI@RAT:~/Documents/TRY_HACK_ME/Relevant/smb# cat passwords.txt 
 [User Passwords - Encoded]
-Qm9iIC0gIVBAJCRXMHJEITEyMw==
-QmlsbCAtIEp1dzRubmFNNG40MjA2OTY5NjkhJCQk
+Qm9********JCRXMHJEITEyMw==
+Qmls*************40MjA2OTY5NjkhJCQk
 
 https://gchq.github.io/CyberChef/
 
-KALI@RAT:~/Documents/TRY_HACK_ME/Relevant/smb# echo -n "Qm9iIC0gIVBAJCRXMHJEITEyMw==" | base64 -d;echo""
-Bob - !P@$$W0rD!123
-KALI@RAT:~/Documents/TRY_HACK_ME/Relevant/smb# echo -n "QmlsbCAtIEp1dzRubmFNNG40MjA2OTY5NjkhJCQk" | base64 -d;echo""
-Bill - Juw4nnaM4n420696969!$$$
+KALI@RAT:~/Documents/TRY_HACK_ME/Relevant/smb# echo -n "Qm9iIC0******MHJEITEyMw==" | base64 -d;echo""
+Bob - !P@*******!123
+KALI@RAT:~/Documents/TRY_HACK_ME/Relevant/smb# echo -n "QmlsbCAtIEp1dz**********************JCQk" | base64 -d;echo""
+Bill - Juw4nnaM4********969!$$$
 
 =================================Smbmap=====================================
 
@@ -238,5 +238,5 @@ dir
 
 C:\Users\Administrator\Desktop>type root.txt
 type root.txt
-THM{1fk5kf469devly1gl320zafgl345pv}
+THM{1fk5kf469de***************5pv}
 C:\Users\Administrator\Desktop>
